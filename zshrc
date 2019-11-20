@@ -1,13 +1,9 @@
 export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-# -----------  anaconda3
-#export PATH=~/anaconda3/bin:$PATH
-. /Users/shouta/anaconda3/etc/profile.d/conda.sh
-export PATH=~/Development/flutter/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/shouta/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 DEFAULT_USER="$USER"
@@ -47,10 +43,8 @@ POWERLEVEL9K_BATTERY_ICON=''
 alias typora="open -a typora"
 alias hotel="echo 'trivago'; open http://www.trivago.com/"
 alias cls="clear"
-alias cloc-git="sh /Users/shouta/scripts/cloc-git.sh"
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/shouta/CloudSpeechCredential.json"
 
 plugins=(
   git z extract osx vi-mode cp
