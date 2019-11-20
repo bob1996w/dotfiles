@@ -59,5 +59,5 @@ source $ZSH/oh-my-zsh.sh
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 # prevent auto-suggestion hide because of solarize theme
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=10"
-
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
